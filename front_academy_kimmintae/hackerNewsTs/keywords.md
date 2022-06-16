@@ -19,3 +19,22 @@ npx parcel ./index.html
 - n개의 유형을 입력할 때 n개의 유형을 출력하는 방식
 - 특정 함수의 리턴값으로 두 개의 타입이 올경우 사용자는 어떤 타입이 올지 예상할 수 없음 => generic으로 해결해보기
 - e.g a,b,c,d의 입력 중 a의 입력 => a를 출력, b를 입력 => b를 출력
+
+# interface
+
+- 3_extends_mixin_interface 참고
+- type 방식과 유사하게 작성
+
+# extends (inheritance) & mixin
+
+- 3_extends_mixin_interface 참고
+- 다중 상속이 필요한 경우 => mixin
+- 부모 클레스가 하나일 경우 => extends
+
+# chart labrary
+
+- canvas, 2d graphic
+- webGL
+- svg (vector graphic system)
+
+- 러닝 커브 webGL > canvas > svg
