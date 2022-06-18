@@ -49,3 +49,13 @@ $ npm i identity-obj-proxy
 - `$ docker login`
 - Build your container:`$ docker build -t nextjs-docker .`
 - Run your container: `$ docker run -p 3000:3000 nextjs-docker`
+
+# 배포환경
+
+## 무엇이 우선이냐가 중요, devOps가 없다면 유연하게 대처
+
+- docker
+- kubernetes (분산 컨테이너)
+- rolling up (무중단 배포)
+- EC2에서 바로 빌드
+- nextjs는 vercel도 굿 초이스
