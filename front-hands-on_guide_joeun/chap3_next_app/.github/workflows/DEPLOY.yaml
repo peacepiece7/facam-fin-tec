@@ -6,9 +6,8 @@
 name: Deploy to Amazon ECS
 
 on:
-  push:
-    branches:
-      - master
+  release:
+    types: [created]
 
 env:
   # aws 설정이 되어있다면 변경해주기!
