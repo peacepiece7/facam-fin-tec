@@ -1,5 +1,5 @@
 {
-  "name": "chap3_next_app",
+  "name": "facam-fin-tec",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,8 +9,8 @@
     "lint": "next lint",
     "test": "jest",
     "test:watch": "jest --watch",
-    "build:docker": "docker build -t chap3_next_app .",
-    "start:docker": "docker run -p 3000:3000 chap3_next_app"
+    "build:docker": "docker build -t facam-fin-tec .",
+    "start:docker": "docker run -p 3000:3000 facam-fin-tec"
   },
   "dependencies": {
     "identity-obj-proxy": "^3.0.0",
