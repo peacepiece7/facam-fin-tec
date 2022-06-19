@@ -113,3 +113,15 @@ $ npm i identity-obj-proxy
     - 강의 요약
     - 강의 제목
     - URL
+
+# use-query hooks
+
+```ts
+const useLectures = (categories : string) => {
+  if (cateogories === "lecture") {
+     useQuery("lecture_list", () => fetch("/api/lectures").then((res) => res.json());
+  }else{
+    // 다른 api 호출 로직을 만듬
+  }
+};
+```
